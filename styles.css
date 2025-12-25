@@ -215,6 +215,19 @@ nav {
     position: relative;
     padding: 0.5rem 0;
 }
+@media (max-width: 768px) {
+    .nav-links {
+        position: static;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        background: transparent;
+    }
+}
 
 .nav-links a::after {
     content: '';
